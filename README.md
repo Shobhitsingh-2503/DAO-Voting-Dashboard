@@ -25,7 +25,6 @@ To run the project locally, follow these steps:
 ```sh
 # Clone the repository
 git clone https://github.com/Shobhitsingh-2503/DAO-Voting-Dashboard.git
-cd DAO-Voting-Dashboard
 
 # Install dependencies
 npm install
