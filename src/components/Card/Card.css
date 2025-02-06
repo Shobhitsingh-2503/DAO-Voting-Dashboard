@@ -1,0 +1,50 @@
+#card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    background-color: #578FCA;
+    padding: 0.5rem;
+    color: rgb(209, 248, 239);
+    width: 90%;
+}
+#topic{
+    width: 50%;
+}
+#btn-pallete{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.btn{
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #3674B5;
+    color: black;
+    margin-right: 0.5rem;
+}
+#like{
+    background-color: greenyellow;
+}
+#dislike{
+    background-color: red;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #3674B5;
+    &:hover{
+        cursor: pointer;
+    }
+}
+#quorum{
+    padding: 0.5rem;
+}

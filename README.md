@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# DAO Voting Dashboard
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+The **DAO Voting Dashboard** is a decentralized application (dApp) designed to facilitate governance in a Decentralized Autonomous Organization (DAO). This platform allows users to submit proposals, vote on governance decisions, and track real-time results.
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Voting Interface:** Users can see proposals and cast votes based on their token holdings.
+- **Proposal Creation:** Token holders can submit proposals for governance actions such as budget changes or new initiatives.
+- **Real-time Results:** Displays live voting results with real-time updates from the blockchain.
+- **Quorum Tracking:** Tracks whether voting quorums are met and when proposals pass or fail.
+- **Governance History:** Shows a timeline of past governance decisions and their outcomes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend:** React.js with Web3.js/Ethers.js for blockchain interaction.
+- **Backend:** Node.js and Express.
+- **Blockchain:** Ethereum or Polkadot smart contracts.
 
-### `npm test`
+## Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To run the project locally, follow these steps:
 
-### `npm run build`
+```sh
+# Clone the repository
+git clone https://github.com/your-username/DAO-Voting-Dashboard.git
+cd DAO-Voting-Dashboard
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Install dependencies
+npm install
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Start the development server
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Usage
 
-### `npm run eject`
+### 1. Connecting to Blockchain
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- The application connects to a blockchain wallet (MetaMask or similar) to verify token ownership.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 2. Creating a Proposal
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Click on the **"Create an Agenda"** button.
+- Enter the proposal topic, description, and quorum value.
+- Submit the proposal, which will be stored on the blockchain.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 3. Voting on Proposals
 
-## Learn More
+- Users can vote **"In Favor"** or **"Against"** a proposal.
+- Votes are recorded based on the user's token holdings.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 4. Viewing Results
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- The **Live Agendas** section displays active proposals.
+- The **History** section shows past proposals and their outcomes.
 
-### Code Splitting
+## Problem Statement & Solutions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Problem: Lack of Transparent DAO Governance
 
-### Analyzing the Bundle Size
+**Solution:** A blockchain-based voting system ensures transparency and immutability.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Problem: Ensuring Real-Time Updates
 
-### Making a Progressive Web App
+**Solution:** Web3.js and Ethers.js fetch real-time data from the blockchain.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Screenshots
 
-### Advanced Configuration
+### Home Page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+![dashboard-1](https://ik.imagekit.io/tttjlp0fj/Screenshot%202025-02-07%20000113.png?updatedAt=1738866827916)
 
-### Deployment
+![dashboard-2](https://ik.imagekit.io/tttjlp0fj/Screenshot%202025-02-07%20000127.png?updatedAt=1738866792829)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### Creating a Proposal
 
-### `npm run build` fails to minify
+![dashboard-3](https://ik.imagekit.io/tttjlp0fj/Screenshot%202025-02-07%20000138.png?updatedAt=1738866792925)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributors
+
+- **Shobhit Singh** - _Full Stack & Blockchain Development_
