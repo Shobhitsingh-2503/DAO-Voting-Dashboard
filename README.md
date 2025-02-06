@@ -17,6 +17,7 @@ The **DAO Voting Dashboard** is a decentralized application (dApp) designed to f
 - **Frontend:** React.js with Web3.js/Ethers.js for blockchain interaction.
 - **Backend:** Node.js and Express.
 - **Blockchain:** Ethereum or Polkadot smart contracts.
+- **Smart Contracts:** Deployed using Hardhat [DAO Voting Smart Contracts](https://github.com/Shobhitsingh-2503/DAO-voting-smart-contract).
 
 ## Installation
 
@@ -80,3 +81,7 @@ npm start
 ## Contributors
 
 - **Shobhit Singh** - _Full Stack & Blockchain Development_
+
+## Links
+
+- **Link to smart contracts and deployed scripts** - [DAO Voting smart contract](https://github.com/Shobhitsingh-2503/DAO-voting-smart-contract)
