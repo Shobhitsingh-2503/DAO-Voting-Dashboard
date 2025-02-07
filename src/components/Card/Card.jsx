@@ -100,6 +100,17 @@ export const Card = ({
           <div>STOP</div>
         </div>
       )} */}
+      {!status && (
+        <div
+          className="btn"
+          style={{
+            backgroundColor: votesFor > votesAgainst ? "green" : "red",
+            color: "white",
+          }}
+        >
+          {votesFor > votesAgainst ? <div>Approved</div> : <div>Rejected</div>}
+        </div>
+      )}
     </div>
   );
 };
