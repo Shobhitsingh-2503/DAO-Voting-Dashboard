@@ -64,7 +64,7 @@ npm start
 
 ### Problem: Ensuring Real-Time Updates
 
-**Solution:** Web3.js and Ethers.js fetch real-time data from the blockchain.
+**Solution:** Ethers.js fetch real-time data from the blockchain.
 
 ## Screenshots
 
